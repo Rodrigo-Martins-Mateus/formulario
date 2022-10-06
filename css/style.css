@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    width: 400px;
+    height: 800px;
+}
+#barra_topo{
+    width: 400px;
+    height: 3px;
+    background-color: #f6db7b;
+    margin-top: 0px;
+}

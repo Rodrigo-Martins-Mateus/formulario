@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário-01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <canvas id="barra_topo"></canvas>
+        <canvas id="quadrado"></canvas>
+        <p id="Inscreva">Inscreva-se</p>
+        <form id="form_inscrever">
+           
+            <label id="label_nome">Nome</label>
+            <input type="text" id="input_nome"><br>
+
+            <label id="label_email">Email</label>
+            <input type="text" id="input_email">
+
+            <label id="label_senha">Senha</label>
+            <input type="text" id="input_senha">
+
+            <img src="./img/esconder.svg" id="icon_olho" alt=" icone de esconder">
+
+            <label id="cep">CEP</label>
+            <label id="numero">Número</label><br>
+
+            <input type="text" id="input_cep">
+            <input type="text" id="input_numero">
+
+
+            <label id="rua">Rua</label>
+            <input type="text" id="input_rua">
+            
+            <label id="label_cidade">Cidade</label>
+            <select id="select_cidade">
+                <option value="saopaulo" selected>São Paulo</option>
+                <option value="riodejaneiro">Rio De Janeiro</option>
+                <option value="salvador">Salvador</option>
+                <option value="blumenau">Blumenau</option>
+                <option value="minasgerais">Minas Gerais</option>
+            </select>
+            <input type="checkbox" id="check">
+            <label id="label_check">Concordo Com os Termos e Condições</label>
+
+            <input type="submit"  id="botao" value="Cadastrar Conta">
+        </form>
+    </main>
+</body>
+</html>
